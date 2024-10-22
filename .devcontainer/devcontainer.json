@@ -1,0 +1,21 @@
+{
+  "name": "zenn",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "zenn",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "node",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "Github.vscode-pull-request-github",
+        "hediet.vscode-drawio",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "mushan.vscode-paste-image",
+        "negokaz.zenn-editor",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  }
+}
