@@ -4,6 +4,7 @@ emoji: "👉️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [next, nextjs, react, nextjs15, typescript]
 published: false
+publication_name: "uniformnext"
 ---
 # はじめに
 最近ようやくzenn-cliで記事を書き始めたたくみです．
