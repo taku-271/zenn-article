@@ -4,6 +4,7 @@
   "service": "zenn",
   "workspaceFolder": "/workspace",
   "remoteUser": "node",
+  "postStartCommand": "npm i",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -14,7 +15,8 @@
         "dbaeumer.vscode-eslint",
         "mushan.vscode-paste-image",
         "negokaz.zenn-editor",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker"
       ]
     }
   }
