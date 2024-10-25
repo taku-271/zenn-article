@@ -2,7 +2,7 @@
 title: "Next.js v15の嬉しいところ ７選"
 emoji: "👉️"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [next, nextjs, react, nextjs15, typescript]
+topics: [next, react, frontend, typescript, javascript]
 published: false
 publication_name: "uniformnext"
 ---
