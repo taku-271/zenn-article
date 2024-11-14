@@ -19,7 +19,7 @@ publication_name: "uniformnext"
 リーダブルコードなどの名著を読んで学習しても良いですが，どうせなら問題形式であるとやりやすいですよね．
 
 ということで！
-リファクタリング　本ノックを作ったので，楽しみながら学習してください！！
+リファクタリング　本ノックを作ったので，楽しみながら学習してください！！****
 
 # 注意点
 
@@ -27,7 +27,7 @@ publication_name: "uniformnext"
 
 - 使用している言語は TypeScript です！
 
-# 1. 変数名をわかりやすく
+# 1
 
 ```ts:問題のコード.ts
 const calc = (x: number, y: number): number => {
@@ -36,6 +36,7 @@ const calc = (x: number, y: number): number => {
 ```
 
 :::details 解答例
+## 変数名をわかりやすく
 このコード，関数名，引数名に意味を持っていないため，とても分かりづらくなっています．
 
 わかりやすい命名のコツは，
@@ -53,7 +54,7 @@ const calculateTriangleArea = (base: number, height: number): number => {
 
 :::
 
-# 2. マジックナンバーを使用しない
+# 2
 
 ```ts:問題のコード.ts
 const calculateCircleArea = (radius: number) => {
@@ -62,6 +63,7 @@ const calculateCircleArea = (radius: number) => {
 ```
 
 :::details 解答例
+## マジックナンバーは使わない
 このコード中の`3.14`，数学を知っている人からすれば「円周率なんだろうな」とわかりますが，円周率が`3.14`と知らない人からすればナンノコッチャわからないですよね．（まぁそんな人あんまりいないと思いますが，例なので許してください．）
 
 この場合，マジックナンバー（意味もなくコード中に出てくる数字のこと）は定数として保持しておくととてもわかり易くなります！
@@ -113,7 +115,7 @@ obj.prop1 = hogehoge;
 
 :::
 
-# 3. 不要な else を消す
+# 3
 
 ```ts:問題のコード.ts
 const isAdult = (age: number): boolean => {
@@ -126,12 +128,11 @@ const isAdult = (age: number): boolean => {
 ```
 
 ::::details 解答例
+## そのelse不要かも？
 このコードでは，`else`文を使用する意味は正しいのですが，`else`文が意味のないものになっています．
 
 18 歳以上の場合は，`if`の中で`return`されるのでそこで関数が終了してしまいます．
 つまり，`else`を書いたとしても，書かないにしても，`if`文から抜けるとそれは 18 歳未満ということになるので，`false`を返せば良くなります．
-
-ちなみに，この手法を「早期リターン」と呼びますね．
 
 ```ts:解答例.ts
 const isAdult = (age: number): boolean => {
@@ -155,4 +156,51 @@ const isAdult = (age: number): boolean => age >= 18;
 
 ::::
 
-# 4.
+# 4
+```ts:問題のコード.ts
+const findTargetNumber = (numbers: number[], target: number): string => {
+  if (numbers.length > 0) {
+    numbers.forEach((number) => {
+      if (number === target) {
+        return 'Found!';
+      }
+    })
+
+    return 'Not Found!';
+  } 
+
+  return 'empty array';
+}
+```
+
+:::details 解答例
+## 早期リターン
+この書き方，きれいなのでは？と思うかもしれませんが，もっときれいにすることができます！
+このコードの何が嫌かというと，`if`文と`for`文(`foreach`)がネストしているという点です．
+
+さて，これをどうきれいにしましょうか．条件分岐の順番をもう一度考えてみましょう．
+
+ネストが起こっている原因としては，`numbers`の中身が0より大きいときに`numbers`の`foreach`を回している点ですね．
+
+ここで，一番最初に`numbers`の中身が0だったら`empty array`を返すようにするとどうでしょうか．
+`numbers`のループは`if`文の中から抜けて，問題だったネストの分かりづらさが解消されますよね！
+
+この手法を早期リターンと呼びます．
+最初に例外処理をreturnしてしまってネストをなくすという方法ですね．
+  
+```ts:解答例.ts
+const findTargetNumber = (numbers: number[], target: number): string => {
+  if (numbers.length === 0) {
+    return 'empty array';
+  }
+
+  numbers.forEach((number) => {
+    if (number === target) {
+      return 'Found!';
+    }
+  })
+
+  return 'Not Found!';
+}
+```
+:::
