@@ -1,6 +1,6 @@
 ---
 title: "React19 アップデートまとめ"
-emoji: "👻"
+emoji: "🔥"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [react, typescript, react19, update, javascript]
 published: false
