@@ -10,8 +10,8 @@ publication_name: "uniformnext"
 # はじめに
 こんにちは，たくみです．
 
-「今年最も大きなチャレンジ」ということで，RestAPIからGraphQLの移行や，認証基盤システムのインフラ構築，AppRouterのContainer／Presentation構成の移行など様々思い浮かびますが，一番困難だったのは「Graphql Federation」の検証かなと思います．
-ただ，Graphql Federationを理解すると，今までのGraphQLには戻れない体になってしまい，マイクロサービスアーキテクチャの虜になってしまいました笑
+「今年最も大きなチャレンジ」ということで，RestAPIからGraphQLの移行や，認証基盤システムのインフラ構築，AppRouterのContainer／Presentation構成の移行など様々思い浮かびますが，一番困難だったのは「GraphQL Federation」の検証かなと思います．
+ただ，GraphQL Federationを理解すると，今までのGraphQLには戻れない体になってしまい，マイクロサービスアーキテクチャの虜になってしまいました笑
 
 この記事では実際に検証したときの手順と困難を紹介します．
 
@@ -52,10 +52,27 @@ graph
 また，APIサーバーが別れていることから，複数のサービスからデータを取得してきて，それをフロントエンドで合体させて使用する形になっていました．
 データの取得や変形は極力バックエンドに任せたいところなのですが，サーバーが別れているためどうしようにもありませんでした…
 
+### BFF (Backend For Frontend)
+マイクロサービスアーキテクチャを進めるために，フロントエンドからバックエンドにリクエストを送る際に中間層（BFF）を設ける技術も出てきました．
+:::details BFFのアーキテクチャ図（簡略）
+```mermaid
+graph
+    A[フロントエンド] --> |リクエスト| B[BFF]
+    B --> |リクエスト| C[APIサーバー1]
+    B --> |リクエスト| D[APIサーバー2]
+    style A fill:#CDE6C7,stroke:#CDE6C7
+    style B fill:#65BBE9,stroke:#65BBE9
+    style C fill:#FAA755,stroke:#FAA755
+    style D fill:#FAA755,stroke:#FAA755
+```
+:::
+BFFを設けることで，APIの集約ができます！また，認証やキャッシュなどの処理を置くことで，フロントエンドとバックエンドをまたがる処理をまとめる事ができます！
+しかし，ルーティングの設定や設計が難しくなってしまいます．
+
 ### GraphQL Federation
 ここで出てきたのが「GraphQL Federation」という技術です．
 GraphQL Federationは，Gatewayサーバーを用意しておき，フロントエンドからはGatewayサーバーのエンドポイントを叩くことで，Gatewayサーバーがバックエンドにリクエストを伝搬してデータを返してくれると言ったものになります．
-また，それだけでなく，クエリによって各サービスのデータを合体させて返すため，フロントエンド側での処理も少なくなります！
+また，それだけでなく，クエリによって各サービスのデータを合体させて返すため，フロントエンド側での処理も少なくなり，BFFであったルーティングの設定などもよしなにやってくれます！
 :::details GraphQL Federationのアーキテクチャ図（簡略）
 ```mermaid
 graph
@@ -528,7 +545,7 @@ const gateway = new ApolloGateway({
 :::
 
 ## 6-4. graphql codegen
-graphql codegenを使用することで，GraphqlスキーマからTypescript用の型定義を生成することができます．
+graphql codegenを使用することで，GraphQLスキーマからTypescript用の型定義を生成することができます．
 これを使用してスーパーグラフスキーマ（統合後のスキーマ）を下に型生成をすることができます．
 https://the-guild.dev/graphql/codegen
 
@@ -580,3 +597,6 @@ app.get("/health", (_req, res) => {
 ぜひみなさんもGraphQL Federationを導入してみてください．
 
 よいGraphQLライフを！！
+
+# 8. ソースコード
+https://github.com/taku-271/zenn-graphql-federation-demo
