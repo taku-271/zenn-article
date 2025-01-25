@@ -3,14 +3,13 @@
   "dockerComposeFile": "docker-compose.yaml",
   "service": "zenn",
   "workspaceFolder": "/workspace",
-  "remoteUser": "node",
-  "postStartCommand": "npm i",
+  "remoteUser": "bun",
+  "postStartCommand": "bun install",
   "customizations": {
     "vscode": {
       "extensions": [
         "GitHub.copilot",
         "Github.vscode-pull-request-github",
-        "hediet.vscode-drawio",
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "mushan.vscode-paste-image",
