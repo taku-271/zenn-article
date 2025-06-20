@@ -368,7 +368,7 @@ sudo docker build -t mcp . -f mcp/Dockerfile
 {
   "servers": {
     "kurage-ui-mcp": {
-      "command": "docker",
+      "command": "sudo docker",
       "args": [
         "run",
         "-i",
