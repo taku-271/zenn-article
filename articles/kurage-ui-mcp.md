@@ -106,7 +106,7 @@ export * from "./Test";
 ```
 
 ```typescript:src/utility/index.ts
-export * from "function";
+export * from "./function";
 ```
 
 ```typescript:src/index.ts
