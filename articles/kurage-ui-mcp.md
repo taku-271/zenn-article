@@ -3,7 +3,7 @@ title: "【TypeScript】自社UIコンポーネントにMCPサーバーを作っ
 emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [contest2025ts]
-published: false
+published: true
 publication_name: "uniformnext"
 ---
 
