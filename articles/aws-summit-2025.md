@@ -3,7 +3,7 @@ title: "AWS Summit Japan 2025に行ってきました！"
 emoji: "🚝"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [aws, awssummit]
-published: false
+published: true
 publication_name: "uniformnext"
 ---
 
