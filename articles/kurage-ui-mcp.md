@@ -409,3 +409,7 @@ sudo docker build -t mcp . -f mcp/Dockerfile
 ただし、もっとセキュアにするためには認証も組み込めるといいのかなとも思いました。
 
 せっかく MCP サーバー構築したので、この調子で会社に AI を導入できていけたらなと思います。
+
+# 参考
+以下、とても参考になりました。
+https://zenn.dev/moneyforward/articles/43bcef16b033f8

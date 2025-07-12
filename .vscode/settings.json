@@ -2,6 +2,6 @@
   "pasteImage.basePath": "${currentFileDir}/..",
   "pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
   "pasteImage.path": "${currentFileDir}/../images/${currentFileNameWithoutExt}",
-  "terminal.integrated.defaultProfile.osx": "bash",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.defaultProfile.linux": "bash",
 }
