@@ -728,6 +728,7 @@ gantt
 # 注意点
 `/kairo-implements`の途中でClaude Codeが落ちると再開できなくなる？
 再開の仕方がわかりませんでした...
+（再度`/kairo-implements`を実行すれば進みはしました。）
 
 # 最後に
 Tsumikiを触って、とてつもないAIの進化を再度、実感しました。
