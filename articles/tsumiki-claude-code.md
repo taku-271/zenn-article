@@ -13,6 +13,10 @@ publication_name: "uniformnext"
 https://classmethod.jp/news/20250729-tsumiki/
 これまでClaude Codeには軽く触れる程度でしたが、フレームワークの登場を機に本格的に試してみることにしました。
 
+:::message
+実は、Claude Proプランの制限でアプリ完成まで行かなかったんで、GitHubは途中までのものを公開しています。 完成してないけど書いてるの許してください（2025/07/31現在）
+:::
+
 # Tsumikiとは
 Tsumikiとは、クラスメソッド社が公開したAIによる**テスト駆動開発、TDD**を支援するオープンソースフレームワークです。
 
