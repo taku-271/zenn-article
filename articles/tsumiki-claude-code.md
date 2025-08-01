@@ -3,7 +3,7 @@ title: "[Claude Code]AITDDフレームワークTsumikiを使ってみた"
 emoji: "😊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [Tsumiki, Anthropic, claude, Claude Code, TDD]
-published: false
+published: true
 publication_name: "uniformnext"
 ---
 # はじめに
