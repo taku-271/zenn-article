@@ -3,7 +3,7 @@ title: "Zenncafeで初登壇した話"
 emoji: "🦔"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [zenncafe,LT,登壇,typescript,mcp]
-published: false
+published: true
 publication_name: "uniformnext"
 ---
 # はじめに
