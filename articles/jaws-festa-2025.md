@@ -110,7 +110,7 @@ https://jawsdays2026.jaws-ug.jp/
 
 ここでは様々なエンジニアの方とお話することができ、様々な意見をいただきました！
 福井の企業の方もおり、福井でもイベントしたいねーなどの話で盛り上がりました！
-また、backlog world 2024の運営委員長の方ともお会いでき、弊社のbacklog award 2024の発表についてお話しできました。
+また、backlog world 2024の運営委員長の方ともお会いでき、弊社の[backlog award 2024](https://backlog.com/ja/blog/backlog-world-2024-gpa/)の発表についてお話しできました。
 ご飯もとてもおいしかったです。
 ![](/images/jaws-festa-2025/all.png)
 
