@@ -45,12 +45,14 @@ JAWS FESTAとは、毎年秋ごろに開催されている、地方で行われ�
 ### 能登半島地震で見えた災害対応の課題と組織変革の重要性
 このセッションは石川県前副知事の方が、能登半島地震の際にどのような部分で困ったのか、どのようにITを利用したのかを説明してくださっていました。
 特に、被災者の方々の情報をどのように名寄せしてデータベースに統合し、管理するのか、その際に自衛隊の方との協力をした話、やはり県職員の方々に理解してもらう時間がかかってしまう話など、普段聞かないDRのお話を聞け、とても興味深かったです。
+https://speakerdeck.com/ditccsugii/neng-deng-ban-dao-di-zhen-dejian-etazai-hai-dui-ying-noke-ti-tozu-zhi-bian-ge-nozhong-yao-xing?slide=
 https://jawsfesta2025.jaws-ug.jp/sessions/timetable/166/
 
 ### JAWS-UGの災害支援と石川県の災害を振り返る - エンジニアクロストーク
 このセッションではJAWS-UGの過去の災害支援と、石川県のエンジニアが能登半島地震の際にどのような行動を取ったのかというお話をしてくださっていました。
 JAWS-UGの過去や現在の状況などがわかり、とても面白かったです。年間のイベント数が530回程度で、すご！となりました笑。
 また、DRはまだブルーオーシャンであり、地域貢献に直結する会社になるため、需要が上がるのではないかとのお話もあり、確かに！となりました。
+https://speakerdeck.com/ditccsugii/neng-deng-ban-dao-zai-hai-xian-chang-enziniakurosutoku-jaws-festa-2025-in-jin-ze
 https://jawsfesta2025.jaws-ug.jp/sessions/timetable/101/
 
 ### スタートアップで高速検証するためのAmplify Gen 2 〜利便性と、ハマるS3認可や一覧画面実装の解決テンプレート〜
