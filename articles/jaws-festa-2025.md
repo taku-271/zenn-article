@@ -3,7 +3,7 @@ title: "JAWS FESTA 2025 in 金沢へ行ってきました！"
 emoji: "👏"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [jawsug, jaws, jaws festa 2025, aws, event]
-published: false
+published: true
 publication_name: "uniformnext"
 ---
 # はじめに
