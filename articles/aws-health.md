@@ -3,7 +3,7 @@ title: "AWS Healthが有能だった件"
 emoji: "❤️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [aws, claude]
-published: false
+published: true
 publication_name: "uniformnext"
 ---
 # はじめに
