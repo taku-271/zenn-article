@@ -6,6 +6,6 @@
     "start": "zenn preview"
   },
   "dependencies": {
-    "zenn-cli": "^0.1.161"
+    "zenn-cli": "^0.2.10"
   }
 }
