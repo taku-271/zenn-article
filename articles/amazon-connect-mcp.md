@@ -2,7 +2,7 @@
 title: "Amazon ConnectでMCP操作してみた"
 emoji: "😺"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
+topics: [aws, amazon connect, mcp, ai]
 published: false
 publication_name: "uniformnext"
 ---
@@ -30,7 +30,7 @@ https://aws.amazon.com/jp/about-aws/whats-new/2025/11/amazon-connect-mcp-support
 :::
 
 # やってみよう
-事前にAmazon Connectインスタンスを対応しているリージョンで作成しておきます。
+事前に、Amazon Connect MCPクライアントが対応しているリージョンで、Amazon Connectインスタンスを作成しておきます。
 
 ## Bedrock AgentCore Gatewayの作成
 Amazon Connectで使用するMCPサーバーはBedrock AgentCore Gatewayでホストする必要があります。
