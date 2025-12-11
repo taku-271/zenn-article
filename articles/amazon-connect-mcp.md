@@ -1,9 +1,9 @@
 ---
 title: "Amazon ConnectでMCP操作してみた"
-emoji: "😺"
+emoji: "📞"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [aws, amazon connect, mcp, ai]
-published: false
+published: true
 publication_name: "uniformnext"
 ---
 Amazon Connect アドベントカレンダー 2025、12日目の記事です！
