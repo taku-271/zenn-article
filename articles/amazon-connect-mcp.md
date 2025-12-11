@@ -8,7 +8,7 @@ publication_name: "uniformnext"
 ---
 Amazon Connect アドベントカレンダー 2025、12日目の記事です！
 
-クラスメソッドとギークフィードさん、ユニフォームネクストさん、AWS Japanさんの有志が募ってチャレンジしている企画になります。
+クラスメソッドさんとギークフィードさん、ユニフォームネクスト、AWS Japanさんの有志が募ってチャレンジしている企画になります。
 
 (アドベントカレンダーのカレンダー一覧はこちら↓)
 https://qiita.com/advent-calendar/2025/amazon-connect
