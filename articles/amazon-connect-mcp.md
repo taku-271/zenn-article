@@ -26,7 +26,7 @@ AWS Re:Inventにて、Amazon ConnectのMCPサポート開始というアップ�
 https://aws.amazon.com/jp/about-aws/whats-new/2025/11/amazon-connect-mcp-support/
 
 :::message alert
-12/12時点でAmazon Connect MCPクライアントはオレゴンリージョン（us-west-2）でのみ対応しています。
+2025/12/12時点でAmazon Connect MCPクライアントはオレゴンリージョン（us-west-2）でのみ対応しています。
 :::
 
 # やってみよう
