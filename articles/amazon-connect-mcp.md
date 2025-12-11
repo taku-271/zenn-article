@@ -46,11 +46,11 @@ Amazon Connectで使用するMCPサーバーはBedrock AgentCore Gatewayでホ�
 ターゲットとしてAWS knowledge base MCPサーバーを設定します。`MCPエンドポイント`に好きなMCPサーバーのエンドポイントを設定することができます。今回はAWS knowledge MCPサーバーのエンドポイントを設定しています。
 ![](/images/amazon-connect-mcp/image2.png)
 
-## Amazon Connectのサードパーティーアプリケーションの作成
-Amazon Connect サードパーティーアプリケーションで先ほど作成したBedrock AgentCore Gatewayにアクセスします。
+## Amazon Connectのサードパーティーのアプリケーションの作成
+Amazon Connect サードパーティーのアプリケーションで先ほど作成したBedrock AgentCore Gatewayにアクセスします。
 `AWSマネジメントコンソール > Amazon Connect > サードパーティーのアプリケーション`からサードパーティーのアプリケーションを作成します。
 
-適当名前を設定し、`Application type`を`MCP Server`に設定します。`Application details`で先ほど設定した`Bedrock AgentCore Gateway`を設定します。また、`インスタンスの関連付け`で用意したインスタンスを設定しておきます。
+適当な名前を設定し、`Application type`を`MCP Server`に設定します。`Application details`で先ほど設定した`Bedrock AgentCore Gateway`を設定します。また、`インスタンスの関連付け`で用意したインスタンスを設定しておきます。
 ![](/images/amazon-connect-mcp/image3.png)
 
 ## Amazon Qの有効化
