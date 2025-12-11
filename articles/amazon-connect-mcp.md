@@ -4,6 +4,7 @@ emoji: "😺"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []
 published: false
+publication_name: "uniformnext"
 ---
 Amazon Connect アドベントカレンダー 2025、12日目の記事です！
 
