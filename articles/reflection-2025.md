@@ -61,9 +61,6 @@ Api GatewayがResponseStreamに対応したことから、Predict Stream関数�
 GenUでは認証にCognitoを使用していました。しかし弊社のSaaSでは基本的にAuth0を使用しており認可をやりやすくするためにauth0-spaを使用してAuth0での認可を行うようにしました。
 Cognitoも使用しなくて良くなり、若干コストが低くなりました。また別のSaaSから簡単に呼び出すことができるようになり、AIエージェント戦略の幅が広がります。
 
-### 関連記事
-いずれ書きます...🖊️
-
 ## イベント参加
 AWS SummitやCTOAの研修、JAWS UGなどの様々なイベントに参加しました。参加だけでなく登壇もすることができ、良い経験がたくさんできました。
 
@@ -77,6 +74,7 @@ https://cto-a.org/news/20250408_release
 特にAWS Japan様の自由研究のようなブースがとても面白く、私もAWSを使用してワクワクするようなアプリケーションを作りたいと思いました。
 JAWSや外部イベント参加を積極的にしたくなったのはAWS Summitへ参加したからだと思います。いつかはre:invent行きます。
 https://aws.amazon.com/jp/summits/japan/
+https://zenn.dev/uniformnext/articles/aws-summit-2025
 
 ### JAWS UG 新潟支部 夏のハンズオン祭り
 AWS SummitでJAWS UGの存在を知り、ずっと参加したいと思っていました。そこで、7月に開催されたJAWS UG 新潟支部 夏のハンズオン祭りに参加しました。
@@ -90,6 +88,7 @@ AWS Summitが終わり、JAWS UG 新潟でたくさんの刺激をいただき�
 初めてのLTということで、過去に書いたZennの記事を元に7分程度の発表をさせていただきました。参加者の皆様からは初LTスムーズにできていてすごかったなどのお褒めの言葉をいただき、登壇して良かったと思いました。
 https://www.youtube.com/watch?v=m1Y1QhJUN2k
 https://speakerdeck.com/taku271/zi-she-uikonponentonimcpsabawozuo-tutahua
+https://zenn.dev/uniformnext/articles/zenncafe-speaking
 
 ### Jaws Festa 2025 in 金沢
 ちょっと飛んで10月、Jaws Festa 2025 in 金沢に参加しました。
@@ -100,17 +99,13 @@ https://speakerdeck.com/taku271/zi-she-uikonponentonimcpsabawozuo-tutahua
 また、AWS Japan 沼口様に福井でAWSを触っている方々をご紹介いただき、JAWS UG 福井支部の立ち上げを行うことができました。念願の福井でのJAWS イベント、盛り上げていきたいと思います。
 https://jawsug-fukui.connpass.com/event/375652/
 https://x.com/numaguchi/status/1983764406170476613
+https://zenn.dev/uniformnext/articles/jaws-festa-2025
 
 ### Education JAWS #5 なつやすみの自由研究発表会
 Jaws Festaでたくさんの影響を受けたのち、登壇意欲がとてもあったためEducation JAWS なつやすみの自由研究発表会にお邪魔させていただきました。
 登壇は学生Only、どんな内容でもOKということだったので5月に行ったNext.jsをLambdaでホストする話をしました。終了後、参加者の皆様からたくさんのフィードバックをいただいたため、この内容から質の良いアウトプットを行なっていこうと思います。
 https://speakerdeck.com/taku271/next-dot-js-ssr-wolambdadehosutositemiru-jaws-education
 https://youtu.be/0d2MuFfGaGs?t=2074
-
-### 関連記事
-https://zenn.dev/uniformnext/articles/aws-summit-2025
-https://zenn.dev/uniformnext/articles/zenncafe-speaking
-https://zenn.dev/uniformnext/articles/jaws-festa-2025
 
 ## 資格試験の受験
 AWS認定試験やIPAの試験を受験しました。
@@ -127,9 +122,6 @@ https://zenn.dev/uniformnext/articles/19495107b17158
 情報処理安全確保支援士試験、登録してバッジが欲しいですが、バッジのために高額な費用を払えないと思うので未登録のまま行きます笑。
 
 これらの資格試験は自身のスキルを証明すると同時に、この資格を持っているならというバイアスが働いてしまいます。その期待に応えられるよう、合格した後でも学習を続けていきたいです。
-
-### 関連記事
-そのうち書きます...
 
 ## 社内イベント
 内定者なのですが様々な社内イベントに参加しました。
