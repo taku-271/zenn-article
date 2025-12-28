@@ -90,8 +90,8 @@ https://www.youtube.com/watch?v=m1Y1QhJUN2k
 https://speakerdeck.com/taku271/zi-she-uikonponentonimcpsabawozuo-tutahua
 https://zenn.dev/uniformnext/articles/zenncafe-speaking
 
-### Jaws Festa 2025 in 金沢
-ちょっと飛んで10月、Jaws Festa 2025 in 金沢に参加しました。
+### JAWS FESTA 2025 in 金沢
+ちょっと飛んで10月、JAWS FESTA 2025 in 金沢に参加しました。
 最初行くか迷っていましたが、もっとJAWSのことを知りたい、もっとAWSのことを知りたいという気持ちで申し込みました。本当は会社の先輩と一緒に行きたかったのですが、一般枠がすぐ埋まってしまい叶いませんでした。（学生枠が使えるのも今年まで...）
 このイベントでとても有意義な時間を過ごすことができました。特に2025 Japan AWS Jr. Championsの方々のパネルディスカッションでは、AWSを学び始めたきっかけやJr. Championsになったきっかけ、今後の展望などとても影響されました。私ももっとアウトプット頑張ります。
 懇親会では様々な方々とお話しすることができ、皆さんの意気込み、AWSへの想いを聞くことができました。
@@ -102,7 +102,7 @@ https://x.com/numaguchi/status/1983764406170476613
 https://zenn.dev/uniformnext/articles/jaws-festa-2025
 
 ### Education JAWS #5 なつやすみの自由研究発表会
-Jaws Festaでたくさんの影響を受けたのち、登壇意欲がとてもあったためEducation JAWS なつやすみの自由研究発表会にお邪魔させていただきました。
+JAWS FESTAでたくさんの影響を受けたのち、登壇意欲がとてもあったためEducation JAWS なつやすみの自由研究発表会にお邪魔させていただきました。
 登壇は学生Only、どんな内容でもOKということだったので5月に行ったNext.jsをLambdaでホストする話をしました。終了後、参加者の皆様からたくさんのフィードバックをいただいたため、この内容から質の良いアウトプットを行なっていこうと思います。
 https://speakerdeck.com/taku271/next-dot-js-ssr-wolambdadehosutositemiru-jaws-education
 https://youtu.be/0d2MuFfGaGs?t=2074
