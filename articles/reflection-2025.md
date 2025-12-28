@@ -105,7 +105,7 @@ https://zenn.dev/uniformnext/articles/jaws-festa-2025
 
 ### Education JAWS #5 なつやすみの自由研究発表会
 JAWS FESTAでたくさんの影響を受けたのち、登壇意欲がとてもあったためEducation JAWS なつやすみの自由研究発表会にお邪魔させていただきました。
-登壇は学生Only、どんな内容でもOKということだったので5月に行ったNext.jsをLambdaでホストする話をしました。終了後、参加者の皆様からたくさんのフィードバックをいただいたため、この内容から質の良いアウトプットを行なっていこうと思います。
+登壇は学生Only、どんな内容でもOKということだったので5月におこなったNext.jsをLambdaでホストする話をしました。終了後、参加者の皆様からたくさんのフィードバックをいただいたため、この内容から質の良いアウトプットを行なっていこうと思います。
 https://speakerdeck.com/taku271/next-dot-js-ssr-wolambdadehosutositemiru-jaws-education
 https://youtu.be/0d2MuFfGaGs?t=2074
 
