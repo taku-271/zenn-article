@@ -54,7 +54,7 @@ AWSが提供している[GenU](https://aws.amazon.com/jp/builders-flash/202504/g
 しかし、S3 Vectorsはハイブリッド検索をサポートしておらず、セマンティック検索のみになってしまっているため若干精度は落ちているかもしれません。
 
 ### Predict Stream関数をAPI Gatewayに配置
-API GatewayがResponseStreamに対応したことから、Predict Stream関数をAPI Gateway経由で呼び出すよう修正しました。
+API GatewayがResponseStreamに対応したことから、Predict Stream関数をAPI Gateway経由で呼び出すように修正しました。
 これにより、CognitoなどでAWSへの認証情報を持つ必要がありましたが、API Gatewayを叩くだけで良くなり、Cognito脱却を行うことができました。また、Lambda関数が全てAPI Gatewayで統合され、とてもクリーンなアーキテクチャになったと思います。
 
 ### 認証にCognitoではなくAuth0 SPAを使用
