@@ -96,6 +96,8 @@ https://zenn.dev/uniformnext/articles/zenncafe-speaking
 このイベントでとても有意義な時間を過ごすことができました。特に2025 Japan AWS Jr. Championsの方々のパネルディスカッションでは、AWSを学び始めたきっかけやJr. Championsになったきっかけ、今後の展望などとても影響されました。私ももっとアウトプット頑張ります。
 懇親会では様々な方々とお話しすることができ、皆さんの意気込み、AWSへの想いを聞くことができました。
 
+https://jawsfesta2025.jaws-ug.jp/
+
 また、AWS Japan 沼口様に福井でAWSを触っている方々をご紹介いただき、JAWS UG 福井支部の立ち上げを行うことができました。念願の福井でのJAWS イベント、盛り上げていきたいと思います。
 https://jawsug-fukui.connpass.com/event/375652/
 https://x.com/numaguchi/status/1983764406170476613
