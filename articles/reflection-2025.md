@@ -36,7 +36,7 @@ https://speakerdeck.com/taku271/next-dot-js-ssr-wolambdadehosutositemiru-jaws-ed
 
 ### サービス間通信にLatticeを使用
 バックエンドのサービス通信にVPC Latticeを使用することで完全プライベートな通信を実現しています。また、各バックエンドのエンドポイントを露出しないことによって、API統合サーバーにリクエストを統合することができています。
-Transit GatewayやVPC PeeringではなくVPC Latticeを使用することでインターネットを意識する必要がなく、L7のエンドポイント通信が可能になっています。
+Transit GatewayやVPC PeeringではなくVPC Latticeを使用することでネットワークを意識する必要がなく、L7のエンドポイント通信が可能になっています。
 ちょうど実装している時に、ECSとLattice Serviceとの直接統合が可能になったのでALBも置いていません。
 
 ### 関連記事
@@ -45,17 +45,17 @@ https://zenn.dev/uniformnext/articles/graphql-federation
 
 ## 社内AI SaaSのリリース
 AWSが提供している[GenU](https://aws.amazon.com/jp/builders-flash/202504/genu-development-guide/)を使用して社内向けAI RAG SaaSを8月にリリースしました。
-私は主にインフラ部分を担当し、Bedrock、Bedrock knowledge base、S3 Vectors、Auth0を触っていました。特に、GenUをカスタマイズする部分に注力しました。
+私は主にインフラ部分を担当し、Bedrock、Bedrock Knowledge Bases、S3 Vectors、Auth0を触っていました。特に、GenUをカスタマイズする部分に注力しました。
 
-### Bedrock Knowledge BaseのベクトルデータベースにS3 Vectorsを使用
+### Bedrock Knowledge BasesのベクトルデータベースにS3 Vectorsを使用
 当時のGenUでは、ベクトルデータベースにOpenSearch Serverlessが使用されていました。
 しかし、OpenSearch Serverlessは割高になってしまい費用対効果が合わないということでリリース当初からAurora Serverlessを使用していました。しかし、毎月50$ほど常に料金がかかっており、コストに問題がありました。
 そこで、AWS re:inventにてS3 Vectorsが正式リリースしたとのことだったのでベクトルデータベースをS3 Vectorsに変更し、コストをとても安くすることに成功しました。今後、別のSaaSからretrieve関数を高頻度で呼び出されることが想定されているため、この置き換えによって結構なコスト削減になった気がします。
 しかし、S3 Vectorsはハイブリッド検索をサポートしておらず、セマンティック検索のみになってしまっているため若干精度は落ちているかもしれません。
 
-### Predict Stream関数をApi Gatewayに配置
-Api GatewayがResponseStreamに対応したことから、Predict Stream関数をApi Gatewayに移動しました。
-これにより、CognitoなどでAWSへの認証情報を持つ必要がありましたが、Api Gatewayを叩くだけで良くなり、Cognito脱却を行うことができました。また、Lambda関数が全てApi Gatewayで統合され、とてもクリーンなアーキテクチャになったと思います。
+### Predict Stream関数をAPI Gatewayに配置
+API GatewayがResponseStreamに対応したことから、Predict Stream関数をAPI Gateway経由で呼び出すよう修正しました。
+これにより、CognitoなどでAWSへの認証情報を持つ必要がありましたが、API Gatewayを叩くだけで良くなり、Cognito脱却を行うことができました。また、Lambda関数が全てAPI Gatewayで統合され、とてもクリーンなアーキテクチャになったと思います。
 
 ### 認証にCognitoではなくAuth0 SPAを使用
 GenUでは認証にCognitoを使用していました。しかし弊社のSaaSでは基本的にAuth0を使用しており認可をやりやすくするためにauth0-spaを使用してAuth0での認可を行うようにしました。
@@ -153,7 +153,7 @@ re:inventでもBedrock AgentCoreやStrands AgentsなどのAIエージェント�
 
 ## 社内ワークフローアプリのリリース
 現在、稟議書ワークフローやアカウント申請などのワークフローを行えるSaaSを一人で開発しています。
-このSaaSを今年中にリリースしようとしていましたが、別のリリースや私のリソース不足によりリリースすることができませんでした。このSaaSによってバックオフィスの運用が改善されることやユニネク®︎での拡張性が向上することから、来年、優先度高めで進めていく予定です。
+このSaaSを今年中にリリースしようとしていましたが、別のリリースや私のリソース不足によりリリースすることができませんでした。このSaaSによってバックオフィスの運用が改善されるため、来年は優先度高めで進めていく予定です。
 
 ## 読書
 圧倒的、読書不足でした。実は結構技術書読むの苦手でして、なかなか読めずにいました。
