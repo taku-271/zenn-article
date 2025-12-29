@@ -3,7 +3,7 @@ title: "2025年を振り返って"
 emoji: "🤖"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [2025, aws, auth0, jaws, インターンシップ]
-published: false
+published: true
 publication_name: "uniformnext"
 ---
 
