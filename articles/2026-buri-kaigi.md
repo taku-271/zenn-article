@@ -1,7 +1,7 @@
 ---
 title: "2026ブリ会議に参加しました！"
 emoji: "🐟"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [community, burikaigi, coderabbit, tdd, tddbootcamp]
 published: false
 publication_name: "uniformnext"
