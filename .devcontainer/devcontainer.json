@@ -4,7 +4,6 @@
   "service": "zenn",
   "workspaceFolder": "/workspace",
   "remoteUser": "bun",
-  "postStartCommand": "bun install",
   "customizations": {
     "vscode": {
       "extensions": [
