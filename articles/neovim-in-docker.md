@@ -13,7 +13,7 @@ publication_name: "uniformnext"
 
 そんな理由から、VSCode から Neovim へ移行したい！
 のですが Neovim は `GitHub Copilot` や `LSP` などのプラグインで `Node.js` が必要になります。
-しかし、実は私 Mac には `Node.js` や `Python` （デフォルト以外）は入れたくないという思想の持ち主なのです。
+しかし、実は私 Mac には `Node.js` や `Python` （デフォルト以外）などの環境は入れたくないという思想の持ち主なのです。
 ということで、 Neovim さんと私の思想の全面戦争が勃発しています。
 一緒に戦っていただける方をこの記事で見つけられればなと思っています。
 
