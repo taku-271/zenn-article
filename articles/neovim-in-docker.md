@@ -7,6 +7,11 @@ published: false
 publication_name: "uniformnext"
 ---
 
+:::message
+本記事は[Vim駅伝](https://vim-jp.org/ekiden/)の[2026-02-20](https://vim-jp.org/ekiden/#article-2026-02-20)の投稿です。
+前回の記事は[glmlm](https://vim-jp.org/ekiden/runners/glmlm/)さんによる[LSPの自動インストールはmason-lspconfig.nvimがなくてもできる](https://zenn.dev/glmlm/articles/neovim-mason-lspconfig-20250218)でした。
+:::
+
 # はじめに
 最近、大学生というブランドがもう少しという事実に気付き、悲しんでいるたくみです。
 まず皆さんに問い掛けたい。 VSCode 重くないですか？？？
