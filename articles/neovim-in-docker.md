@@ -3,7 +3,7 @@ title: "環境を入れたくない私 vs 環境を入れさせるNeovim"
 emoji: "🦾"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [neovim, vim, docker, docker compose, vscode]
-published: false
+published: true
 publication_name: "uniformnext"
 ---
 
