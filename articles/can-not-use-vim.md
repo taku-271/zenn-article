@@ -1,9 +1,9 @@
 ---
 title: "それでも私がVim（Neovim）を使えない理由"
-emoji: ""
+emoji: "😈"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
-published: false
+topics: [neovim,vim,vscode,nix]
+published: true
 publication_name: "uniformnext"
 ---
 
