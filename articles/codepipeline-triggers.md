@@ -2,7 +2,7 @@
 title: "[AWS CDK]Code Pipeline V2を使用したトリガーフィルター"
 emoji: "😨"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [aws, awscdk, cdk, codepipeline, github]
+topics: [aws, cdk, codepipeline, github]
 published: false
 publication_name: "uniformnext"
 ---
