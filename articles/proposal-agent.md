@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "AI開発 in 事業会社〜選定AI編〜"
 emoji: "🦾"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []
