@@ -1,9 +1,9 @@
 ---
-title: "AI時代、エンジニアに必要なものは熱量だった in 事業会社"
+title: "AI時代でエンジニアに必要なものは熱量だった in 事業会社"
 emoji: "🔥"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["生成AI", "AIエージェント", "事業会社", "組織", "コミュニケーション"]
-published: false
+published: true
 publication_name: "uniformnext"
 ---
 # はじめに
