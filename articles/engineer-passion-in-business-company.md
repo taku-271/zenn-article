@@ -94,3 +94,28 @@ AIが出てきた今、エンジニアとしての存在意義が問われてい
 
 ちゃんちゃん。
 
+---
+:::message
+**働く環境に興味を持っていただいた方へ**
+
+「好奇心がビジネスを動かす場所」として、実際に中で働いている人を知る。
+当社のテックリードの密着動画はこちら。
+
+[▶ テックリードの密着動画](https://www.youtube.com/watch?v=-XeCeKclO8g)
+:::
+
+:::message
+**少しでも共感した方へ**
+
+選考よりも前に、まずカジュアルに話しましょう。どんな仕事をしているか、どんなチームか。30分で話せます。
+
+[▶ カジュアル面談を申し込む](https://docs.google.com/forms/d/e/1FAIpQLSfI_vCDtKfzecR1Ay52ldJ80t5M2iVFb3hin5Q3doOGVYHz1w/viewform)
+:::
+
+:::message
+**学生の方へ**
+
+長期インターンシップを通じて、実際の開発プロジェクトに関わることができます。「事業に関わるエンジニアリング」を体験したい方はこちら。
+
+[▶ 長期インターンに応募する](https://recruit.uniformnext.net/recruit_event/system_saas/)
+:::
