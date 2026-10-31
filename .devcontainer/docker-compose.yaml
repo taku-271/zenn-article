@@ -8,5 +8,7 @@ services:
         - GROUP_ID=$GROUP_ID
     volumes:
       - ../:/workspace
+    ports:
+      - 8000:8000
     tty: true
     command: tail -f /dev/null

@@ -1,15 +1,19 @@
-# VPC Latticeについて
+# VPC Lattice について
 
-# [AWS CDK]VPC LatticeとECSの直接統合
+# [AWS CDK]VPC Lattice と ECS の直接統合
 
-# Auth0 Formsをterraformから作成してみた
+# Auth0 Forms を terraform から作成してみた
 
-# [CTOA]ISUCON研修に参加した
+# [CTOA]ISUCON 研修に参加した
 
-# [AWS CDK]Code Pipeline V2を使用したトリガーフィルター
+# [AWS CDK]Code Pipeline V2 を使用したトリガーフィルター
 
-# AWSからData DogのAPMを作成する（AWS ECS編）
+# AWS から Data Dog の APM を作成する（AWS ECS 編）
 
-# AWSからData DogのAPMを作成する（AWS Lambda Next.js編）
+# AWS から Data Dog の APM を作成する（AWS Lambda Next.js 編）
 
-# AWS GenUを使ってみた
+# AWS GenU を使ってみた
+
+# Turbo repo AWS に載せてみた
+
+# Apollo Router 実装してみた
